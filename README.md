@@ -1,6 +1,9 @@
 # @application/average-price
 # REST API
 
+Зі всіма айді можна ознайомитись тут (тип транспорту, марка, модель, кузов і тд) за посиланням нижче
+https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.html
+
 Документація для роботи з сервісом розрахунку ціни автомобіля
 
 ## Отримати середню ціну по унікальному ідентифікатору (omniId)
