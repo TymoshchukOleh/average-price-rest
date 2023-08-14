@@ -68,6 +68,7 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 | modelId         | number |            Модель |
 | bodyId          | number |             Кузов |
 | gearBoxId       | number |           Коробка |
+| fuelId          | number |        Тип палива |
 | driveId         | number |            Привід |
 | colorId         | number |             Колір |
 | stateId         | number |           Область |
@@ -134,6 +135,7 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 | modelId         | number |         Модель |
 | bodyId         | number |          Кузов |
 | gearBoxId         | number |        Коробка |
+| fuelId          | number |        Тип палива |
 | driveId         | number |         Привід |
 | colorId         | number |          Колір |
 | stateId         | number |        Область |
