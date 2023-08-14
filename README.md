@@ -36,7 +36,7 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
     }
 
 ## onlyValue
-    curl -i -H 'Accept: application/json' https://autolocal.ria.com/rest/average-price/public/average/omniId?omniId=34746079&onlyValue=1
+    curl -i -H 'Accept: application/json' https://auto.ria.com/rest/average-price/public/average/omniId?omniId=34746079&onlyValue=1
 
 ### Response
 
@@ -103,7 +103,7 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 
 `POST /average/omniId`
 
-    curl -i -H 'Accept: application/json' POST 'http://localhost:3024/public/average/omniId' -d 'omniId=ab9999it'
+    curl -i -H 'Accept: application/json' POST 'http://auto.ria.com/rest/average-price/public/omniId' -d 'omniId=ab9999it'
 
 ### Response
 
@@ -122,7 +122,7 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 
 `POST /average/params`
 
-    curl -i -H 'Accept: application/json' POST 'http://localhost:3024/public/average/params' -d 'categoryId=1'
+    curl -i -H 'Accept: application/json' POST 'http://auto.ria.com/rest/average-price/public/params' -d 'categoryId=1'
 
 
 ### Params
