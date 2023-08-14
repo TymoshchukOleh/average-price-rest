@@ -14,7 +14,7 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 
 `GET /average/omniId/`
 
-    curl -i -H 'Accept: application/json' https://auto.ria.com/rest/average-price/public/average/omniId?omniId=34746079
+    curl -i -H 'Accept: application/json' 'https://auto.ria.com/rest/average-price/public/average/omniId?omniId=34746079'
 
 ### Response
 
@@ -36,7 +36,7 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
     }
 
 ## onlyValue
-    curl -i -H 'Accept: application/json' https://auto.ria.com/rest/average-price/public/average/omniId?omniId=34746079&onlyValue=1
+    curl -i -H 'Accept: application/json' 'https://auto.ria.com/rest/average-price/public/average/omniId?omniId=34746079&onlyValue=1'
 
 ### Response
 
@@ -57,7 +57,7 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 
 `GET /average/params/`
 
-    curl -i -H 'Accept: application/json' https://auto.ria.com/rest/average-price/public/average/params?categoryId=1
+    curl -i -H 'Accept: application/json' 'https://auto.ria.com/rest/average-price/public/average/params?categoryId=1'
 
 ### queryParams
 
