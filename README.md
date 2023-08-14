@@ -149,10 +149,26 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 
 ```json
 {
-  "engineVolume": {
-    "gte": 1,
-    "lte": 2
-  }
+    "categoryId": "1",
+    "brandId": "6",
+    "modelId": "1943",
+    "year": {
+        "gte": "2010",
+        "lte": "2020"
+    },
+    "bodyId": "5",
+    "mileage": {
+        "gte": "100",
+        "lte": "200"
+    },
+    "fuelId": "1",
+    "engineVolume": {
+        "gte": "1",
+        "lte": "2"
+    },
+    "gearBoxId": "2",
+    "driveId": "1",
+    "colorId": "2"
 }
 ```
 
