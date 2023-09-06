@@ -202,7 +202,7 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 
 `POST /average/params/addForm`
 
-        curl --location --request POST 'http://localhost:3024/public/average/params/addForm' \
+        curl --location --request POST 'http://auto.ria.com/rest/average-price/public/average/params/addForm' \
         --header 'Content-Type: application/json' \
         --data-raw '{
             "params": {
