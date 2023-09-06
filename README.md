@@ -203,102 +203,102 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 `POST /average/params/addForm`
 
         curl --location --request POST 'https://auto.ria.com/rest/average-price/public/average/params/addForm?onlyValue=1' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "params": {
-        "main_category": 1,
-        "marka_id": 9,
-        "model_id": 96,
-        "body_id": 5,
-        "fuel_id": 1,
-        "engineVolume": 3,
-        "gear_id": 2,
-        "drive_id": 1,
-        "color_id": 3,
-        "state_id": 18,
-        "generation_id": 5836,
-        "modification_id": 134539,
-        "year": 2022,
-        "raceInt": 12,
-        "power": 340,
-        "fuel_consumption_city": 5,
-        "fuel_consumption_combine": 7,
-        "fuel_consumption_route": 6,
-        "seats": 5,
-        "door": 5,
-        "metallic": 1,
-        "equip_id": 212140,
-        "city_id": 50,
-        "paintConditionId": 1,
-        "technicalConditionId": 1,
-        "headlightId": 3,
-        "interiorMaterialId": 2,
-        "interiorColorId": 1,
-        "seatAdjustmentId": 2,
-        "seatVentilationId": 2,
-        "seatHeatedId": 1,
-        "memorySeatModuleId": 1,
-        "windowLifterId": 1,
-        "conditionerTypeId": 2,
-        "powerSteeringId": 2,
-        "steeringWheelAdjustmentId": 1,
-        "spareWheelId": 1,
-        "matched_country": 756
-    },
-    "options": [
-        {
-            "optionId": 188
-        },
-        {
-            "optionId": 610
-        },
-        {
-            "optionId": 255
-        },
-        {
-            "optionId": 629
-        },
-        {
-            "optionId": 525
-        },
-        {
-            "optionId": 605
-        },
-        {
-            "optionId": 132
-        },
-        {
-            "optionId": 555
-        },
-        {
-            "optionId": 575
-        },
-        {
-            "optionId": 574
-        },
-        {
-            "optionId": 486
-        },
-        {
-            "optionId": 437
-        },
-        {
-            "optionId": 441
-        },
-        {
-            "optionId": 602
-        },
-        {
-            "optionId": 217
-        },
-        {
-            "optionId": 608
-        },
-        {
-            "optionId": 626
-        }
-    ]
-}'
+        --header 'Content-Type: application/json' \
+        --data-raw '{
+            "params": {
+                "main_category": 1,
+                "marka_id": 9,
+                "model_id": 96,
+                "body_id": 5,
+                "fuel_id": 1,
+                "engineVolume": 3,
+                "gear_id": 2,
+                "drive_id": 1,
+                "color_id": 3,
+                "state_id": 18,
+                "generation_id": 5836,
+                "modification_id": 134539,
+                "year": 2022,
+                "raceInt": 12,
+                "power": 340,
+                "fuel_consumption_city": 5,
+                "fuel_consumption_combine": 7,
+                "fuel_consumption_route": 6,
+                "seats": 5,
+                "door": 5,
+                "metallic": 1,
+                "equip_id": 212140,
+                "city_id": 50,
+                "paintConditionId": 1,
+                "technicalConditionId": 1,
+                "headlightId": 3,
+                "interiorMaterialId": 2,
+                "interiorColorId": 1,
+                "seatAdjustmentId": 2,
+                "seatVentilationId": 2,
+                "seatHeatedId": 1,
+                "memorySeatModuleId": 1,
+                "windowLifterId": 1,
+                "conditionerTypeId": 2,
+                "powerSteeringId": 2,
+                "steeringWheelAdjustmentId": 1,
+                "spareWheelId": 1,
+                "matched_country": 756
+            },
+            "options": [
+                {
+                    "optionId": 188
+                },
+                {
+                    "optionId": 610
+                },
+                {
+                    "optionId": 255
+                },
+                {
+                    "optionId": 629
+                },
+                {
+                    "optionId": 525
+                },
+                {
+                    "optionId": 605
+                },
+                {
+                    "optionId": 132
+                },
+                {
+                    "optionId": 555
+                },
+                {
+                    "optionId": 575
+                },
+                {
+                    "optionId": 574
+                },
+                {
+                    "optionId": 486
+                },
+                {
+                    "optionId": 437
+                },
+                {
+                    "optionId": 441
+                },
+                {
+                    "optionId": 602
+                },
+                {
+                    "optionId": 217
+                },
+                {
+                    "optionId": 608
+                },
+                {
+                    "optionId": 626
+                }
+            ]
+        }'
 
 ### Response
 
