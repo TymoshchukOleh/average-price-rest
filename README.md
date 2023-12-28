@@ -13,6 +13,8 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 
 ### onlyValue - лише значення, без данних для побудови графіка
 
+### onlyPercentiles -лише перцентилі
+
 ### Request
 
 `GET /average/omniId/`
@@ -40,7 +42,7 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 
 ## onlyValue
 
-    curl -i -H 'Accept: application/json' 'https://auto.ria.com/rest/average-price/public/average/omniId?omniId=34746079&onlyValue=1'
+    curl -i -H 'Accept: application/json' 'https://auto.ria.com/rest/average-price/public/average/omniId?omniId=JTEBU29JX05132444&onlyPercentiles=1'
 
 ### Response
 
@@ -54,7 +56,47 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
     x-content-type-options: nosniff
 
     {
-        "value": 9597
+        "avgValue": 19608,
+        "value": 19488,
+        "quantityUnits": 726
+    }
+
+## onlyPercentiles
+
+    curl -i -H 'Accept: application/json' 'https://auto.ria.com/rest/average-price/public/average/omniId?omniId=JTEBU29JX05132444&onlyPercentiles=1'
+
+### Response
+
+    HTTP/2 200
+    server: openresty
+    date: Thu, 28 Dec 2023 14:29:20 GMT
+    content-type: application/json; charset=utf-8
+    content-length: 15
+    x-ria-service-version: 1.0.0
+    x-ria-service-name: @application/average-price
+    x-content-type-options: nosniff
+
+    {   
+        "5":17053,
+        "10":17207,
+        "15":17345,
+        "20":17465,
+        "25":17590,
+        "30":17660,
+        "35":17698,
+        "40":17744,
+        "45":17794,
+        "50":17871,
+        "55":17924,
+        "60":18044,
+        "65":18251,
+        "70":18555,
+        "75":18736,
+        "80":19452,
+        "85":20304,
+        "90":20496,
+        "95":20765,
+        "100":23247
     }
 
 ### Request
