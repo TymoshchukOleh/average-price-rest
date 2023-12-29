@@ -29,7 +29,7 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 
 `GET /average/params/`
 
-    curl -i -H 'Accept: application/json' 'https://auto.ria.com/rest/average-price/public/average/params?categoryId=1&minAvgValue=1'
+    curl -i -H 'Accept: application/json' 'https://auto.ria.com/rest/average-price/public/average/params?categoryId=1&brandId=62&modelId=586&minAvgValue=1'
 
 ### queryParams
 
@@ -75,7 +75,12 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 
 `POST /average/params`
 
-    curl -i -H 'Accept: application/json' POST 'https://auto.ria.com/rest/average-price/public/average/params?minAvgValue=1' -d '{"categoryId": "1","brandId": "62","modelId": "586"}'
+    curl --location --request POST 'https://auto.ria.com/rest/average-price/public/average/params?minAvgValue=1' \
+--data-raw '{
+    "categoryId": "1",
+    "brandId": "62",
+    "modelId": "586"
+}'
 
 ### Params
 
