@@ -75,7 +75,7 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 
 `POST /average/params`
 
-    curl --location --request POST 'https://auto.ria.com/rest/average-price/public/average/params?minAvgValue=1' --data-raw '{\"categoryId\": \"1\",\"brandId\": \"62\",\"modelId\": \"586\"}'
+    curl --location --request POST 'https://auto.ria.com/rest/average-price/public/average/params?minAvgValue=1' -H "Content-Type: application/json" -d "{\"categoryId\": \"1\",\"brandId\": \"62\",\"modelId\": \"586\"}"
 
 ### Params
 
