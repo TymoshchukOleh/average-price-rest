@@ -102,6 +102,8 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 | engineVolume   | Object |  Об'єм двигуна |
 | year           | Object |            Рік |
 | mileage        | Object |         Пробіг |
+| intervalType   | String |  тип інтервалу |
+| intervalNumber | Number |  значення інтервалу |
 
     engineVolume, year, mileage Потрібно передавати у форматі об'єкта з полями gte, lte
 
@@ -128,7 +130,9 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
   },
   "gearBoxId": "2",
   "driveId": "1",
-  "colorId": "2"
+  "colorId": "2",
+  "intervalType": "day",
+  "intervalNumber": 365
 }
 ```
 
