@@ -13,17 +13,24 @@ https://api-docs-v2.readthedocs.io/ru/latest/auto_ria/used_cars/options/index.ht
 
 ### minAvgValue - мінімальна середня ціна автомобіля
 
+### intervalType - тип інтервалу, за яким рахуємо (string: 'day', 'month', 'year), default: 'day'
+
+### intervalNumber - значення інтервалу (integer), default: 365
+
 ### Request
 
 `GET /average/omniId/`
 
-    curl -i -H 'Accept: application/json' 'https://auto.ria.com/rest/average-price/public/average/omniId?omniId=JTEBU29JX05132444&minAvgValue=1'
+    curl -i -H 'Accept: application/json' 'https://auto.ria.com/rest/average-price/public/average/omniId?omniId=JTEBU29JX05132444&minAvgValue=1&intervalType=day&intervalNumber=365'
 
 ### Response
 
     {
         "minAvgValue": 17053
+        "advertisementData": { "categoryId": 1, ... }
     }
+
+*advertisementData - інформація по знайденому оголошенню
 
 ### Request
 
